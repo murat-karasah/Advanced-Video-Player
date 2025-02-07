@@ -1,0 +1,52 @@
+{
+  "name": "advanced-video-player",
+  "version": "1.0.0",
+  "description": "A Netflix-like advanced video player with HLS/DASH support",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "clsx": "^1.2.1",
+    "dashjs": "^4.7.1",
+    "hls.js": "^1.4.0",
+    "i18next": "^22.4.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^12.2.0"
+  },
+  "devDependencies": {
+    "@types/hls.js": "^1.0.0",
+    "@types/node": "^18.15.11",
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "hls",
+    "dash",
+    "streaming",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
